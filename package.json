@@ -1,0 +1,27 @@
+{
+    "name": "illuria",
+    "version": "1.0.0",
+    "description": "Game for learning SQL",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node  dist/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/losslessring/illuria.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/losslessring/illuria/issues"
+    },
+    "homepage": "https://github.com/losslessring/illuria#readme",
+    "devDependencies": {
+        "@types/node": "^24.0.15",
+        "typescript": "^5.8.3"
+    }
+}
